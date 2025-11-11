@@ -1,0 +1,13 @@
+import turtle
+m=turtle.Screen()
+m.bgcolor("light blue")
+m.title("turtle")
+mypen=turtle.Turtle()
+sise=0
+while True:
+    for i in range(4):
+        mypen.fd(sise+1)
+        mypen.left(90)
+        sise=sise-5
+    sise=sise+1
+
